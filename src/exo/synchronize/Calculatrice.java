@@ -4,6 +4,6 @@ public class Calculatrice {
 
     public int addition(int a, int b) {
         System.out.println("Addition");
-        return a + b + 400/8;
+        return a + b + 1200 -15;
     }
 }

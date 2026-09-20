@@ -8,7 +8,6 @@ public class Calculatrice {
     }
     
     public double calculerPrix(double prix) {
-        double total = prix;
-        return total;
+        return prix;
     }
 }

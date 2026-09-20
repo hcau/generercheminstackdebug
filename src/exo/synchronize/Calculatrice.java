@@ -8,6 +8,11 @@ public class Calculatrice {
     }
     
     public double calculerPrix(double prix) {
+
+        if (prix > 100) {
+            prix = prix * 0.90;
+        }
+
         return prix;
     }
 }
